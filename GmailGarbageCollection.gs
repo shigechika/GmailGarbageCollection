@@ -1,4 +1,3 @@
-
 // Gmail Garbage Collection
 
 // Action	Gmail search operator
