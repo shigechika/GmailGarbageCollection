@@ -5,7 +5,6 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
 # Overview
 
 動作原理はあらかじめGoogleスプレッドシートに用意した検索キーワードと動作ルールを用意し，Google Apps Scriptの時間起動により実際のメールボックスを整理します。Archiveならばアーカイブ，Trashならばゴミ箱へ移動します。Gmailの仕様ではゴミ箱に移したメールは30日後に本当に削除します。
-Gmailで使用できる検索演算子 https://support.google.com/mail/answer/7190?hl=ja
 
 # How to install
 
@@ -20,7 +19,24 @@ Gmailで使用できる検索演算子 https://support.google.com/mail/answer/71
 | Trash   | older_than:7d category:social from:@plus.google.com" -is:important |
 | Archive | older_than:1m category:social from:@plus.google.com" -is:important |
 
-
+<dl>
+  <dt>older_than:7d</dt>
+  <dd>7日経過したメール。1mは1ヶ月。1yだと1年。
+<dl>
+<dl>
+  <dt>category:social</dt>
+  <dd>ソーシャル（SNS系）メール
+<dl>
+<dl>
+  <dt>from:facebookmail.com</dt>
+  <dd>Facebookからの通知メール
+<dl>
+<dl>
+  <dt>-is:important</dt>
+  <dd>重要なメールを除外。「-」記号が除外を意味する</dd>
+<dl>
+  
+詳細：Gmailで使用できる検索演算子 https://support.google.com/mail/answer/7190?hl=ja
 
 ![Open Google Spread Sheet ](img/GGC-sheet.png)
 
