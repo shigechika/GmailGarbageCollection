@@ -20,6 +20,7 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
 | Archive | older_than:1m category:social from:@plus.google.com -is:important |
 
 - 簡単な説明
+
 検索条件「7日（1週間）経過したFacebookからの通知メール」を探し，アクション「アーカイブ」する。
 <dl>
   <dt>older_than:7d</dt>
