@@ -19,7 +19,7 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
 | Trash   | older_than:7d category:social from:@plus.google.com -is:important |
 | Archive | older_than:1m category:social from:@plus.google.com -is:important |
 
-簡単な説明
+* 簡単な説明
 <dl>
   <dt>older_than:7d</dt>
   <dd>7日経過したメール。1mは1ヶ月。1yだと1年。
@@ -37,7 +37,7 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
   <dd>重要なメールを除外。「-」記号が除外を意味する</dd>
 </dl>
   
-詳しい説明：[Gmailで使用できる検索演算子](https://support.google.com/mail/answer/7190?hl=ja)
+* 詳しい説明：[Gmailで使用できる検索演算子](https://support.google.com/mail/answer/7190?hl=ja)
 
 ![Open Google Spread Sheet ](img/GGC-sheet.png)
 
