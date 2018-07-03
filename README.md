@@ -23,11 +23,11 @@ Googleスプレッドシートの2行目以降のA列にアクション（Action
   <dt>older_than:7d</dt>
   <dd>7日経過したメール。1mは1ヶ月。1yだと1年。
   <dt>category:social</dt>
-  <dd>ソーシャル（SNS系）メール。プロモーション（販促系）ならcategory:promotions。
+  <dd>ソーシャル（SNS系）メール。プロモーション（販促系）なら「category:promotions」。
   <dt>from:facebookmail.com</dt>
   <dd>送信元がFacebookからの通知メール。
   <dt>-is:important</dt>
-  <dd>重要なメールを除外。「-」記号が除外を意味する。スター付きメールを除外するならば-is:starred。</dd>
+  <dd>重要なメールを除外。「-」記号が除外を意味する。スター付きメールを除外するならば「-is:starred」。</dd>
 </dl>
   
 - 詳しい説明
