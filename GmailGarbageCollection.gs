@@ -18,7 +18,6 @@ function GmailGarbageCollection(){
   var start = 0;
   var max = 100;
 
-  // This logs the value in the very last cell of this sheet
   var lastRow = sheet.getLastRow();
   Logger.log("lastRow:" + lastRow);
 
