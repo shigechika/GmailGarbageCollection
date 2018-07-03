@@ -8,7 +8,8 @@ Gmail Garbage Collection
 
 ![Open Google Spread Sheet ](img/GGC-sheet.png)
 
-| Action  | Gmail search operator |
+| Action  | Gmail search operator                                              |
+|:--------|:-------------------------------------------------------------------|
 | Archive | older_than:7d category:social from:facebookmail.com" -is:important |
 | Trash   | older_than:1m category:social from:facebookmail.com" -is:important |
 | Trash   | older_than:7d category:social from:twitter.com" -is:important |
@@ -18,7 +19,7 @@ Gmail Garbage Collection
 
 - Open Script Editor
 
-![Open Script Editor](img/GGC-scripteeditor.png)
+![Open Script Editor](img/GGC-scripteditor.png)
 
 - COPY&PASTE this code.
 
