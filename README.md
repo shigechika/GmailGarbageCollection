@@ -12,24 +12,25 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
 
 | Action  | Gmail search operator                                              |
 |:--------|:-------------------------------------------------------------------|
-| Archive | older_than:7d category:social from:facebookmail.com" -is:important |
-| Trash   | older_than:1m category:social from:facebookmail.com" -is:important |
-| Trash   | older_than:7d category:social from:twitter.com" -is:important |
-| Archive | older_than:1m category:social from:twitter.com" -is:important |
-| Trash   | older_than:7d category:social from:@plus.google.com" -is:important |
-| Archive | older_than:1m category:social from:@plus.google.com" -is:important |
+| Archive | older_than:7d category:social from:facebookmail.com -is:important |
+| Trash   | older_than:1m category:social from:facebookmail.com -is:important |
+| Trash   | older_than:7d category:social from:twitter.com -is:important |
+| Archive | older_than:1m category:social from:twitter.com -is:important |
+| Trash   | older_than:7d category:social from:@plus.google.com -is:important |
+| Archive | older_than:1m category:social from:@plus.google.com -is:important |
 
+簡単な説明
 <dl>
   <dt>older_than:7d</dt>
   <dd>7日経過したメール。1mは1ヶ月。1yだと1年。
 </dl>
 <dl>
   <dt>category:social</dt>
-  <dd>ソーシャル（SNS系）メール
+  <dd>ソーシャル（SNS系）メール。販促系ならcategory:promotion。
 </dl>
 <dl>
   <dt>from:facebookmail.com</dt>
-  <dd>Facebookからの通知メール
+  <dd>Facebookからの通知メール。
 </dl>
 <dl>
   <dt>-is:important</dt>
