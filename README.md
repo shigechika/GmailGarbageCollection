@@ -6,7 +6,7 @@ Gmail Garbage Collection
 
 - Open Google Spread Sheet 
 
-(img/GGC-sheet.png)
+![Open Google Spread Sheet ](img/GGC-sheet.png)
 
 | Action  | Gmail search operator |
 | Archive | older_than:7d category:social from:facebookmail.com" -is:important |
@@ -18,31 +18,33 @@ Gmail Garbage Collection
 
 - Open Script Editor
 
-(img/GGC-scripteeditor.png)
+![Open Script Editor](img/GGC-scripteeditor.png)
 
 - COPY&PASTE this code.
 
-(img/GGC-paste.png)
+![COPY&PASTE](img/GGC-paste.png)
 
 - Save and Run
 
-(img/GGC-run.png)
+![Save](img/GGC-run.png)
 
 - Confirm
 
-(img/GGC-confirm.png)
+![Confirm](img/GGC-confirm.png)
 
 - Permit
 
-(img/GGC-permit.png)
+![Permit](img/GGC-permit.png)
 
 - Trigger
 
-(img/GGC-trigger.png)
+![Trigger](img/GGC-trigger.png)
 
 - Cron
 
-(img/GGC-cron.png)
+![Cron](img/GGC-cron.png)
+
+# NO WARRANTY
 
 
 
