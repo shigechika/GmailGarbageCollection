@@ -22,19 +22,19 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
 <dl>
   <dt>older_than:7d</dt>
   <dd>7日経過したメール。1mは1ヶ月。1yだと1年。
-<dl>
+</dl>
 <dl>
   <dt>category:social</dt>
   <dd>ソーシャル（SNS系）メール
-<dl>
+</dl>
 <dl>
   <dt>from:facebookmail.com</dt>
   <dd>Facebookからの通知メール
-<dl>
+</dl>
 <dl>
   <dt>-is:important</dt>
   <dd>重要なメールを除外。「-」記号が除外を意味する</dd>
-<dl>
+</dl>
   
 詳細：Gmailで使用できる検索演算子 https://support.google.com/mail/answer/7190?hl=ja
 
