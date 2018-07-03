@@ -6,8 +6,6 @@ Gmail Garbage Collection
 
 - Open Google Spread Sheet 
 
-![Open Google Spread Sheet ](img/GGC-sheet.png)
-
 | Action  | Gmail search operator                                              |
 |:--------|:-------------------------------------------------------------------|
 | Archive | older_than:7d category:social from:facebookmail.com" -is:important |
@@ -17,13 +15,15 @@ Gmail Garbage Collection
 | Trash   | older_than:7d category:social from:@plus.google.com" -is:important |
 | Archive | older_than:1m category:social from:@plus.google.com" -is:important |
 
+![Open Google Spread Sheet ](img/GGC-sheet.png)
+
 - Open Script Editor
 
 ![Open Script Editor](img/GGC-scripteditor.png)
 
-- COPY&PASTE this code.
+- COPY and PASTE
 
-![COPY&PASTE](img/GGC-paste.png)
+![COPY & PASTE](img/GGC-paste.png)
 
 - Save and Run
 
@@ -46,6 +46,4 @@ Gmail Garbage Collection
 ![Cron](img/GGC-cron.png)
 
 # NO WARRANTY
-
-
 
