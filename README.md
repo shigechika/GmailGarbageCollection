@@ -13,11 +13,6 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
 | Action  | Gmail search operator                                              |
 |:--------|:-------------------------------------------------------------------|
 | Archive | older_than:7d category:social from:facebookmail.com -is:important |
-| Trash   | older_than:1m category:social from:facebookmail.com -is:important |
-| Trash   | older_than:7d category:social from:twitter.com -is:important |
-| Archive | older_than:1m category:social from:twitter.com -is:important |
-| Trash   | older_than:7d category:social from:@plus.google.com -is:important |
-| Archive | older_than:1m category:social from:@plus.google.com -is:important |
 
 - 簡単な説明
 
@@ -28,11 +23,11 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
 </dl>
 <dl>
   <dt>category:social</dt>
-  <dd>ソーシャル（SNS系）メール。販促系ならcategory:promotion。
+  <dd>ソーシャル（SNS系）メール。プロモーション（販促系）ならcategory:promotion。
 </dl>
 <dl>
   <dt>from:facebookmail.com</dt>
-  <dd>Facebookからの通知メール。
+  <dd>送信元がFacebookからの通知メール。
 </dl>
 <dl>
   <dt>-is:important</dt>
