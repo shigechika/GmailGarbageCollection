@@ -10,9 +10,11 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
 
 ## Open Google Spread Sheet 
 
-| Action  | Gmail search operator                                              |
-|:--------|:-------------------------------------------------------------------|
-| Archive | older_than:7d category:social from:facebookmail.com -is:important |
+Googleスプレッドシートの2行目以降のA列にアクション（Action）をB列にGmail検索演算子（search operator）を列挙する。Actionはアーカイブ（Archive）とゴミ箱（Trash）がある。Gmail検索演算子には抽出条件を記入する。
+
+| Action  | Gmail search operator                                                         |
+|:--------|:------------------------------------------------------------------------------|
+| Archive | older_than:7d category:social from:facebookmail.com -is:important -is:sterred |
 
 - 簡単な説明
 
@@ -68,4 +70,4 @@ GmailApp.moveThreadsToXxxx（）は仕様上一度に100スレッドまでしか
 
 # NO WARRANTY
 
-無保証。
+完全無保証
