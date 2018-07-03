@@ -37,7 +37,7 @@ Gmailのメールボックスの整理を自動化したいと思ったことあ
   <dd>重要なメールを除外。「-」記号が除外を意味する</dd>
 </dl>
   
-詳細：Gmailで使用できる検索演算子 https://support.google.com/mail/answer/7190?hl=ja
+詳しい説明：[Gmailで使用できる検索演算子](https://support.google.com/mail/answer/7190?hl=ja)
 
 ![Open Google Spread Sheet ](img/GGC-sheet.png)
 
